@@ -10,13 +10,15 @@ This work was part of the project I did during my undergrad research internship 
 
 The functions are gathered in 6 groups according to their two-dimensional shape: plane-shaped, bowl-shaped, many local minima, plate-shaped, valley-shaped and others.
 
-#### Plane-shaped
+### Plane-shaped
 
-<img align="right" src=" " width="400">
+<img align="center" src="https://github.com/edgarsmdn/OptiFunctions/blob/master/Plane_shaped.PNG" width="400">
 
 * Simple sum function
 
-#### Bowl-shaped
+### Bowl-shaped
+
+<img align="center" src="https://github.com/edgarsmdn/OptiFunctions/blob/master/Bowl_shaped.PNG" width="800">
 
 * Bohachevsky function
 * Brown function
@@ -29,7 +31,9 @@ The functions are gathered in 6 groups according to their two-dimensional shape:
 * Sphere function
 * Trid function
 
-#### Many local minima
+### Many local minima
+
+<img align="center" src="https://github.com/edgarsmdn/OptiFunctions/blob/master/Many_local_minima.PNG" width="800">
 
 * Ackley function
 * Alpine 1 function
@@ -54,7 +58,9 @@ The functions are gathered in 6 groups according to their two-dimensional shape:
 * Xin She Yang 2 function
 * Xin She Yang 4 function
 
-#### Plate-shaped
+### Plate-shaped
+
+<img align="center" src="https://github.com/edgarsmdn/OptiFunctions/blob/master/Plate_shaped.PNG" width="800">
 
 * Arithmetic Mean - Geometric Mean Equality function
 * Csendes function (also called Infinity function)
@@ -66,13 +72,17 @@ The functions are gathered in 6 groups according to their two-dimensional shape:
 * Schewefel 4 function
 * Zakharov function
 
-#### Valley-shaped
+### Valley-shaped
+
+<img align="center" src="https://github.com/edgarsmdn/OptiFunctions/blob/master/Valley_shaped.PNG" width="800">
 
 * Dixon-price function
 * Rosenbrock function
 * Schwefel 2 function
 
-#### Other
+### Other
+
+<img align="center" src="https://github.com/edgarsmdn/OptiFunctions/blob/master/Other.PNG" width="800">
 
 * Deceptive function (in its general form)
 * Deflected corrugated spring function
@@ -92,19 +102,14 @@ The functions are gathered in 6 groups according to their two-dimensional shape:
 * Yao Liu 4 function
 * Zero sum function
 
-
-
 ## Prerequisites
 
 The functions requires Python 3.0 (or more recent versions).
 
 #### General information
 
-* In this version, the neighborhood of the current best point is always restricted to remain within the bounds provided by the user.
+* All the functions require an array as input, and return a real value as output.
 
-* The stopping criterion in this version is the temperature value reaching zero.
+* The file *3D_plot.py* presents the plotting routine to obtained the same style of 3D plots as shown here.
 
-
-### References
-
-Jacobson, A. G. (2010). Simulated Annealing. In J. Y. M. Gendreau, Handbook of Metaheuristics (pp. 1 - 39). Buffalo: International Series in Operations Research & Management Sciences.
+* Specific information for each function can be found in the docstring of each one of them. 
