@@ -113,3 +113,7 @@ The functions requires Python 3.0 (or more recent versions).
 * The file *3D_plot.py* presents the plotting routine to obtained the same style of 3D plots as shown here.
 
 * Specific information for each function can be found in the docstring of each one of them. 
+
+#### License
+
+This repository contains a [MIT LICENSE](https://github.com/edgarsmdn/OptiFunctions/blob/master/LICENSE)
