@@ -114,6 +114,6 @@ The functions requires Python 3.0 (or more recent versions).
 
 * Specific information for each function can be found in the docstring of each one of them. 
 
-#### License
+## License
 
 This repository contains a [MIT LICENSE](https://github.com/edgarsmdn/OptiFunctions/blob/master/LICENSE)
